@@ -1,0 +1,6 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Web_Master.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+

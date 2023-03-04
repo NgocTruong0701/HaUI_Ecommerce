@@ -1,0 +1,176 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #666666;
+	margin: 20px;
+	line-height:1.3em;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	color: #035c7a;
+	text-decoration: underline;
+}
+a:hover {
+	color: #035c7a;
+	text-decoration: none;
+}
+.main {
+	width: 900px;
+	margin: 0px auto;
+}
+.page {
+	background-color: #FFFFFF;
+	width: 900px;
+	float: left;
+	padding: 5px;
+}
+.header {
+	width: 900px;
+	float: left;
+}
+.header-img { 
+	background: #3ca8bd;     
+	text-align: right;
+	width: 900px;
+	height: 100px;
+	float: left;
+}
+.header-img h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #fff;
+	margin-top: 20px;
+	margin-right:50px;
+}
+.header-img p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 10px;
+	margin-right: 136px;
+}
+.menu {
+	background-color: #4cb0c6;
+	width: 900px;
+	height: 30px;
+	margin-top:1px;
+	float: left;
+}
+.menu ul {
+	list-style-type: none; 
+	margin-left:15px;   /*Dich Home sang phai 15px*/
+	
+}
+	.menu ul li {
+		display: inline;
+		border-right: 1px solid #D9EEE1;
+	}
+		.menu ul li a {
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			line-height: 30px;
+			color: #FFFFFF;
+			text-decoration: none;
+			padding-right: 25px;
+			padding-left: 25px;
+		}
+	.menu ul li a:hover {
+		padding-right: 25px;
+		padding-left: 25px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		background:#77D4DB;
+	}
+.content {
+	width: 900px;
+	float: left;
+	padding-top: 12px;
+}
+.left-panel {
+	width: 580px;
+	float: left;
+	padding: 20px 50px 20px 20px;
+}
+.left-panel-in {
+	text-align: justify;
+	clear: both;
+}
+.title {
+	font-size: 24px;
+	font-weight: normal;
+	color: #29A0A9;
+	padding-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+.copyright {
+	border: 0px;
+	height: 1px;
+	width: 1px;
+	
+}
+.right-panel {
+	width: 250px;
+	float: right;
+	background:#ebf6f8;
+}
+.right-panel-in {
+	clear: both;
+	padding: 20px;
+}
+.right-panel-in h3 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #29A0A9;
+	margin-top: 25px;
+	margin-bottom: 17px;
+	margin-left: 3px;
+}
+.right-panel-in ul {
+	list-style-type: none;
+}
+.right-panel-in ul li {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.right-panel-in ul li a {
+	color: #3f3f4e;
+	text-decoration: none;
+}
+.right-panel-in ul li a:hover {
+	text-decoration: none;
+	font-weight:bold;
+}
+.footer {
+	margin-top:5px;
+	background-color: #c0c0c0;
+	width: 900px;
+	height: 30px;
+	float: left;
+}
+.footer p {
+	color: #FFFFFF;
+	margin-top: 10px;
+	text-align:center;
+}
+
+.footer a {
+	color: #FFFFFF;
+}
+@media screen and (max-width: 900px) {
+     .right-panel{
+          width: 100%;
+          padding: 0;
+     }
+}

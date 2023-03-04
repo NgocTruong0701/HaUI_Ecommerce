@@ -1,0 +1,64 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+    body table {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.input {
+    width: 100%;
+}
+
+
+.left {
+    width: 10%;
+}
+
+    .left > label {
+        font-weight: bold;
+    }
+
+#lstChk_Hobbies tbody, #lstRdo_Level tbody, #ddl_GPA tbody, #lbox_Majors tbody {
+    display: flex;
+}
+
+#lstChk_Hobbies tbody > tr, #lstRdo_Level tbody > tr, #ddl_GPA tbody > tr, #lbox_Majors tbody > tr {
+        margin-right: 20px;
+}
+
+#ddl_GPA select:invalid {
+    color: gray;
+}
+
+#ddl_GPA option{
+    color: black;
+}
+
+#submit, #cancel {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#submit {
+    background: #00ffe7;
+    color:white;
+}
+
+small{
+    margin-bottom:10px;
+    display:block;
+}
+
+

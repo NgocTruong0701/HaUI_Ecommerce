@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "lDEmfzfMiAEK4Y3bIvZ9pWMo1deQkxRFoDNoqceLull4ycF9U0HSK1GQ+FPnUkkmpfGMm3tjx/e6aoAZQciZRA==",
+  "success": true,
+  "projectFilePath": "E:\\Download\\Nam_3_Ki_1\\TMDT\\Code\\T3_s1\\WebApplication3\\WebApplication3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ngoct\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\6.0.8\\microsoft.aspnetcore.authentication.negotiate.6.0.8.nupkg.sha512",
+    "C:\\Users\\ngoct\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\6.0.8\\microsoft.aspnetcore.connections.abstractions.6.0.8.nupkg.sha512",
+    "C:\\Users\\ngoct\\.nuget\\packages\\microsoft.extensions.features\\6.0.8\\microsoft.extensions.features.6.0.8.nupkg.sha512",
+    "C:\\Users\\ngoct\\.nuget\\packages\\system.directoryservices.protocols\\6.0.1\\system.directoryservices.protocols.6.0.1.nupkg.sha512",
+    "C:\\Users\\ngoct\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

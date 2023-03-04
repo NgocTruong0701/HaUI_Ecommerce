@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MySite.master.cs" Inherits="Proj_ShoppingOnline.MySite" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Layout</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="description" content="Description of your site goes here">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div class="main">
+            <div class="page">
+                <div class="header">
+                    <div class="header-img">
+                        <h1>MVC Web Project</h1>
+                        <p style="margin-right: 50px; font-family: sans-serif">HANOI UNIVERSITY OF INDUSTRY</p>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left-panel">
+                        <div class="left-panel-in">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <!--Designed by-->
+
+                    <div class="right-panel">
+                        <div class="right-panel-in">
+
+                            <h3>Categories</h3>
+                            <ul>
+                                <li><a href="Danhsach.aspx">Tất cả sản phẩm</a></li>
+
+                                <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
+                                    <ItemTemplate>
+                                        <li>
+                                             <a href='/DanhsachTheoDanhmuc.aspx?categoryid=<%#Eval("categoryid") %>'>
+                                                 <%# Eval("categoryname") %>
+                                             </a>                                           
+                                        </li>
+                                    </ItemTemplate>
+
+                                </asp:Repeater>
+
+
+                                <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                                    ConnectionString="<%$ ConnectionStrings:ECartDB2ConnectionString2 %>" SelectCommand="SELECT * FROM [Category]"></asp:SqlDataSource>
+
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>
+                        298 Cầu Diễn, Bắc Từ Liêm, Hà Nội
+                    </p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
